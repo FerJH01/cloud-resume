@@ -158,7 +158,7 @@
     <body onload="updateCounter()">
       <script>
       function updateCounter(){
-      fetch('https://fra90a3sa5.execute-api.us-east-1.amazonaws.com/PROD',{
+      fetch('https://ll00gxbude.execute-api.us-east-1.amazonaws.com/PROD',{
           method: 'GET'
       })
     .then(response => {
@@ -171,7 +171,7 @@
         throw new Error('something went wrong');
       }
     })
-    .then(data => document.getElementById("hits").innerText = data.VisitorCount)
+    .then(data => document.getElementById("hits").innerText = data.Visists)
   }
   </script>
       Visits: <span id="hits"></span>
